@@ -1,0 +1,70 @@
+.header{
+    background-color: #fff;
+    padding: .4rem;
+    overflow: hidden;
+    height: 3.2rem;
+    border-bottom: 1px solid #ccc;
+}
+.header-logo{
+    color: #1e90ff;
+    font-size: 1.4rem;
+    text-align: left;
+}
+.header-txt{
+    font-size: .6rem;
+    color: #999;
+    display: inline-block;
+    padding-left: 0.2rem;
+}
+.ant-menu{
+    line-height: 2.8rem;
+   
+}
+.ant-menu-item{
+    font-size: 1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.top-bar svg{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+}
+.author-introduction{
+    position: relative;
+}
+.ac{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.angle{
+    width: 10px;
+    height: 10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid rgba(0, 0, 0, .7);
+    position: absolute;
+    bottom: -24px;
+}
+.github-account .angle{
+    left: 50px;
+}
+
+.qq-account .angle{
+    left: 96px;
+}
+
+.wechat-account .angle{
+    left: 140px;
+}

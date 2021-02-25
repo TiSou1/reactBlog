@@ -1,0 +1,20 @@
+.userAdd input{
+    width: 40%;
+    height: 40px;
+    outline: none;
+    border-radius: 3px;
+    border: 2px  solid rgba(0, 0, 0, 0.6);
+    margin-right: 20px;
+}
+.userAdd input:focus{
+    border: 2px solid #16B2FC;
+}
+
+.userAdd button{
+    width: 80px;
+    max-width: 15%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #16B2FC;
+}
